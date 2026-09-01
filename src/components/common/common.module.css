@@ -1,0 +1,21 @@
+.pageHeader {
+  text-align: center;
+  padding: var(--space-xl) var(--space-md);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  color: white;
+  border-radius: var(--radius);
+  margin-bottom: var(--space-xl);
+}
+.subtitle {
+  opacity: 0.9;
+  font-size: 1.1rem;
+}
+
+.footer {
+  text-align: center;
+  padding: var(--space-lg);
+  color: var(--color-text-light);
+  font-size: var(--font-size-small);
+  border-top: 1px solid var(--color-border);
+  margin-top: var(--space-xl);
+}

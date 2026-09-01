@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+@media (max-width: 1024px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 768px) {
+  .grid { grid-template-columns: 1fr; }
+}
+
+.errorText {
+  color: var(--color-danger);
+  margin-bottom: var(--space-md);
+}
+
+.notFound {
+  text-align: center;
+  padding: var(--space-xl) var(--space-md);
+}

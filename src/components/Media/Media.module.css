@@ -1,0 +1,14 @@
+.videoContainer, .audioContainer {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: var(--space-md);
+  margin: var(--space-lg) 0;
+}
+.video {
+  border-radius: var(--radius);
+  max-height: 400px;
+}
+.audio {
+  width: 100%;
+}
